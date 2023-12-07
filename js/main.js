@@ -6,7 +6,7 @@ document.querySelectorAll('.sound').forEach(function(element) {
     this.classList.add('active');
     setTimeout(function() {
       element.classList.remove('active');
-    }, 200);
+    }, 100);
   });
 });
 
