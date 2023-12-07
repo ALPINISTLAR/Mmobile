@@ -70,16 +70,16 @@ select:-webkit-autofill:focus {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 100px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* ** MAIN CONTENT ** */
 .main-content
 {
+  padding-top: 50px;
   display: flex;
-  align-items: center;
   flex-grow: 1;
 }
 .grid{
@@ -87,6 +87,7 @@ select:-webkit-autofill:focus {
   gap: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 24px;
 }
 .sound{
   display: flex;
@@ -102,7 +103,23 @@ select:-webkit-autofill:focus {
   cursor: grabbing;
 }
 .active{
+  font-size: 52px;
   border-color: #ffc600;
   box-shadow: 0 0 10px #ffc600;
   transform: scale(0.95);
+}
+h1{
+  font-family: 'Lobster';
+  margin: 0;
+  color: rgb(255, 255, 255, 0.9);
+  font-weight: 600;
+  font-size: 72px;
+  line-height: normal;
+  margin: 48px;
+}
+p{
+  font-family: 'Lobster';
+  font-size: 32px;
+  margin: 0;
+  color: rgb(255, 255, 255, 0.8);
 }
