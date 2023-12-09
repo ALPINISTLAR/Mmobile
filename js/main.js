@@ -1,3 +1,4 @@
+alert(`! IZOH: drumkit game 'num-lock'dagi tugmalar orqali ishlaydi. O'ng qo'lga qulay bo'lishi uchun shunday qilindi.`)
 document.querySelectorAll('.sound').forEach(function(element) {
 
   element.addEventListener('click', function() {
